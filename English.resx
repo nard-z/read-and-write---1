@@ -1,0 +1,1510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strBtnClearEditData" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="strBtnClearListView" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="strBtnConnect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="strBtnDefaultParams" xml:space="preserve">
+    <value>Default Params</value>
+  </data>
+  <data name="strBtnDisconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="strBtnGetAnts" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="strBtnGetDI" xml:space="preserve">
+    <value>Get </value>
+  </data>
+  <data name="strBtnKillTag" xml:space="preserve">
+    <value>Destroy Tag</value>
+  </data>
+  <data name="strBtnModifyDev" xml:space="preserve">
+    <value>Modify Device</value>
+  </data>
+  <data name="strBtnLock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="strBtnReadOnce" xml:space="preserve">
+    <value>Read Once</value>
+  </data>
+  <data name="strBtnReadTagData" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="strBtnSearchDev" xml:space="preserve">
+    <value>Search Device</value>
+  </data>
+  <data name="strBtnSetAlive" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetAnts" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetDevNo" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetDO" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetNeighJudge" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetParams" xml:space="preserve">
+    <value>Set Params</value>
+  </data>
+  <data name="strBtnStartReadData" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="strBtnStopReadData" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="strBtnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="strBtnWriteTagData" xml:space="preserve">
+    <value>Write</value>
+  </data>
+  <data name="strCbAnt1" xml:space="preserve">
+    <value>No.1</value>
+  </data>
+  <data name="strCbAnt2" xml:space="preserve">
+    <value>No.2</value>
+  </data>
+  <data name="strCbAnt3" xml:space="preserve">
+    <value>No.3</value>
+  </data>
+  <data name="strCbAnt4" xml:space="preserve">
+    <value>No.4</value>
+  </data>
+  <data name="strCbIn1" xml:space="preserve">
+    <value>In1</value>
+  </data>
+  <data name="strCbIn2" xml:space="preserve">
+    <value>In2</value>
+  </data>
+  <data name="strGbAntParams" xml:space="preserve">
+    <value>Ant Params</value>
+  </data>
+  <data name="strGbCommMode" xml:space="preserve">
+    <value>CommMode</value>
+  </data>
+  <data name="strGbAdvanceOpr" xml:space="preserve">
+    <value>Advanced Operattion</value>
+  </data>
+  <data name="strGbDevParams" xml:space="preserve">
+    <value>Device Params</value>
+  </data>
+  <data name="strGbIOOpr" xml:space="preserve">
+    <value>I/O Operation</value>
+  </data>
+  <data name="strGbFastWrite" xml:space="preserve">
+    <value>Fast Write Tag</value>
+  </data>
+  <data name="strGbNetParams" xml:space="preserve">
+    <value>Network Params</value>
+  </data>
+  <data name="strGbRWData" xml:space="preserve">
+    <value>Read/Write Tag Data</value>
+  </data>
+  <data name="strGbSPParams" xml:space="preserve">
+    <value>SerialPort Params</value>
+  </data>
+  <data name="strLabAlive" xml:space="preserve">
+    <value>Alive Time</value>
+  </data>
+  <data name="strLabAntUnit" xml:space="preserve">
+    <value>MS      1/10dbm</value>
+  </data>
+  <data name="strLabBaudRate" xml:space="preserve">
+    <value>Baud Rate</value>
+  </data>
+  <data name="strLabCheckBits" xml:space="preserve">
+    <value>Parity</value>
+  </data>
+  <data name="strLabCommPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="strLabCount" xml:space="preserve">
+    <value>Counts:</value>
+  </data>
+  <data name="strLabDataBits" xml:space="preserve">
+    <value>Data Bits</value>
+  </data>
+  <data name="strLabDestIP" xml:space="preserve">
+    <value>Dest IP(Click Get IP)</value>
+  </data>
+  <data name="strLabDestPort" xml:space="preserve">
+    <value>Destination Port</value>
+  </data>
+  <data name="strLabDestrlyPwd" xml:space="preserve">
+    <value>Destroy Password</value>
+  </data>
+  <data name="strLabDestroyAccessPwd" xml:space="preserve">
+    <value>Access Password</value>
+  </data>
+  <data name="strLabDevNo" xml:space="preserve">
+    <value>Device No.</value>
+  </data>
+  <data name="strLabGateway" xml:space="preserve">
+    <value>Gateway</value>
+  </data>
+  <data name="strLabIPAdd" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="strLabIPMode" xml:space="preserve">
+    <value>IP Mode</value>
+  </data>
+  <data name="strLabLength" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="strLabLockAccessPwd" xml:space="preserve">
+    <value>Access Password</value>
+  </data>
+  <data name="strLabLockBank" xml:space="preserve">
+    <value>Operation Bank</value>
+  </data>
+  <data name="strLabLockType" xml:space="preserve">
+    <value>Lock Type</value>
+  </data>
+  <data name="strLabMask" xml:space="preserve">
+    <value>Subnet Mask</value>
+  </data>
+  <data name="strLabNeighJudge" xml:space="preserve">
+    <value>Data Filter</value>
+    <comment>Adja-discriminant</comment>
+  </data>
+  <data name="strLabNetMode" xml:space="preserve">
+    <value>Network Mode</value>
+  </data>
+  <data name="strLabPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="strLabPromotion" xml:space="preserve">
+    <value>Below setting only use in TCP Client:</value>
+  </data>
+  <data name="strLabRWAccessPwd" xml:space="preserve">
+    <value>Access Password</value>
+  </data>
+  <data name="strLabRWBank" xml:space="preserve">
+    <value>R/W Bank</value>
+  </data>
+  <data name="strLabRWData" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="strLabStartAdd" xml:space="preserve">
+    <value>Start Address</value>
+  </data>
+  <data name="strLabTagCount" xml:space="preserve">
+    <value>Tag Counts:</value>
+  </data>
+  <data name="strCbOut1" xml:space="preserve">
+    <value>Out1</value>
+  </data>
+  <data name="strCbOut2" xml:space="preserve">
+    <value>Out2</value>
+  </data>
+  <data name="strRbAsc" xml:space="preserve">
+    <value>Asceding</value>
+  </data>
+  <data name="strRbDesc" xml:space="preserve">
+    <value>Desceding</value>
+  </data>
+  <data name="strRbNet" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="strRbSerialPort" xml:space="preserve">
+    <value>Serial Port</value>
+  </data>
+  <data name="strItemPerUnwritable" xml:space="preserve">
+    <value>Permanence unwritable</value>
+  </data>
+  <data name="strItemPerWritable" xml:space="preserve">
+    <value>Permanence writable</value>
+  </data>
+  <data name="strItemSecuLock" xml:space="preserve">
+    <value>Security lock</value>
+  </data>
+  <data name="strItemUnlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="strLvHeadAntNo" xml:space="preserve">
+    <value>AntNo</value>
+  </data>
+  <data name="strLvHeadCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="strLvHeadDevNo" xml:space="preserve">
+    <value>DevNo</value>
+  </data>
+  <data name="strLvHeadEPC" xml:space="preserve">
+    <value>EPC/TID</value>
+  </data>
+  <data name="strLvHeadNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strTpGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="strTpSetCommParam" xml:space="preserve">
+    <value>CommParams Setting</value>
+  </data>
+  <data name="strTpSetReaderParam" xml:space="preserve">
+    <value>Reader Params Setting</value>
+  </data>
+  <data name="strTpTagAccess" xml:space="preserve">
+    <value>Tag Access</value>
+  </data>
+  <data name="strZlHeadIP" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="strZlHeadMAC" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="strZlHeadNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strZlHeadPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="stMsgNJValid" xml:space="preserve">
+    <value>Valid values is 0 to 255</value>
+  </data>
+  <data name="strMsgAliveNotEmpty" xml:space="preserve">
+    <value>the alive time is none</value>
+  </data>
+  <data name="strMsgAliveValid" xml:space="preserve">
+    <value>Valid values is 0 to 255</value>
+  </data>
+  <data name="strMsgConnectFailure" xml:space="preserve">
+    <value>Failed to connect device</value>
+  </data>
+  <data name="strMsgDevNoNotEmpty" xml:space="preserve">
+    <value>The device number is none</value>
+  </data>
+  <data name="strMsgDevNoValid" xml:space="preserve">
+    <value>Valid values is 0 to 255</value>
+  </data>
+  <data name="strMsgFailedDes" xml:space="preserve">
+    <value>Failed to destroy tag</value>
+  </data>
+  <data name="strMsgFailedGetAnt" xml:space="preserve">
+    <value>Failed to get the antenna params</value>
+  </data>
+  <data name="strMsgFailedGetIn" xml:space="preserve">
+    <value>Failed to get input port state</value>
+  </data>
+  <data name="strMsgFailedLock" xml:space="preserve">
+    <value>Failed to lock</value>
+  </data>
+  <data name="strMsgFailedReadData" xml:space="preserve">
+    <value>Failed to read data</value>
+  </data>
+  <data name="strMsgFailedSetAlive" xml:space="preserve">
+    <value>Failed to set alive time</value>
+  </data>
+  <data name="strMsgFailedSetAnt" xml:space="preserve">
+    <value>Failed to set the antenna params</value>
+  </data>
+  <data name="strMsgFailedSetCommParam" xml:space="preserve">
+    <value>Failed to set communication params</value>
+  </data>
+  <data name="strMsgFailedSetDevNo" xml:space="preserve">
+    <value>Failed to set the device number</value>
+  </data>
+  <data name="strMsgFailedSetNJ" xml:space="preserve">
+    <value>Failed to set Adjacent discriminant</value>
+  </data>
+  <data name="strMsgFailedSetOut" xml:space="preserve">
+    <value>Failed to set output port</value>
+  </data>
+  <data name="strMsgFailedWrite" xml:space="preserve">
+    <value>Failed to write data</value>
+  </data>
+  <data name="strMsgInitFailure" xml:space="preserve">
+    <value>Failed to initialize device</value>
+  </data>
+  <data name="strMsgInvalidIPAdd" xml:space="preserve">
+    <value>Invalid IP Address</value>
+  </data>
+  <data name="strMsgInvalidPort" xml:space="preserve">
+    <value>Invalid Port</value>
+  </data>
+  <data name="strMsgLengthDiff" xml:space="preserve">
+    <value>the data's length is differend from length specifications</value>
+  </data>
+  <data name="strMsgNJNotEmpty" xml:space="preserve">
+    <value>Adjacent discriminant time is none</value>
+  </data>
+  <data name="strMsgNotDigit" xml:space="preserve">
+    <value>Not digit characters is contained</value>
+  </data>
+  <data name="strMsgPowerValid" xml:space="preserve">
+    <value>Valid values is 200 to 300</value>
+  </data>
+  <data name="strMsgPwdInvalidChar" xml:space="preserve">
+    <value>Contains illegal characters(0-9,A-F)</value>
+  </data>
+  <data name="strMsgPwdMustEight" xml:space="preserve">
+    <value>Password must be 8 bits</value>
+  </data>
+  <data name="strMsgSelecOprBank" xml:space="preserve">
+    <value>Please select the bank</value>
+  </data>
+  <data name="strMsgSelectBaudRate" xml:space="preserve">
+    <value>Please select a valid baudrate</value>
+  </data>
+  <data name="strMsgSelectDataBits" xml:space="preserve">
+    <value>Please select data bits</value>
+  </data>
+  <data name="strMsgSelectIPMode" xml:space="preserve">
+    <value>Please select IP mode</value>
+  </data>
+  <data name="strMsgSelectLength" xml:space="preserve">
+    <value>Please select the length</value>
+  </data>
+  <data name="strMsgSelectNetMode" xml:space="preserve">
+    <value>Please select network mode</value>
+  </data>
+  <data name="strMsgSelectOprType" xml:space="preserve">
+    <value>Please select the lock type</value>
+  </data>
+  <data name="strMsgSelectParity" xml:space="preserve">
+    <value>Please select parity</value>
+  </data>
+  <data name="strMsgSelectPort" xml:space="preserve">
+    <value>Please select a port</value>
+  </data>
+  <data name="strMsgSelectRWBank" xml:space="preserve">
+    <value>Please select read/write bank</value>
+  </data>
+  <data name="strMsgSelectStartAdd" xml:space="preserve">
+    <value>Please select the start address</value>
+  </data>
+  <data name="strMsgSucceedDes" xml:space="preserve">
+    <value>Succeed to destroy tag</value>
+  </data>
+  <data name="strMsgSucceedGetAnt" xml:space="preserve">
+    <value>Succeed to get the antenna params</value>
+  </data>
+  <data name="strMsgSucceedLock" xml:space="preserve">
+    <value>Succeed to lock.</value>
+  </data>
+  <data name="strMsgSucceedSetAlive" xml:space="preserve">
+    <value>Succeed to set alive time</value>
+  </data>
+  <data name="strMsgSucceedSetAnt" xml:space="preserve">
+    <value>Succeed to set the antenna params</value>
+  </data>
+  <data name="strMsgSucceedSetCommParam" xml:space="preserve">
+    <value>Succeed to set communication params</value>
+  </data>
+  <data name="strMsgSucceedSetDevNo" xml:space="preserve">
+    <value>Succeed to set the device number</value>
+  </data>
+  <data name="strMsgSucceedSetNJ" xml:space="preserve">
+    <value>Succeed to set adjacent discriminant</value>
+  </data>
+  <data name="strMsgSucceedSetOut" xml:space="preserve">
+    <value>Succeed to set output port</value>
+  </data>
+  <data name="strMsgSucceedWrite" xml:space="preserve">
+    <value>Succeed to write data</value>
+  </data>
+  <data name="strMsgValidWT" xml:space="preserve">
+    <value>Valid values is 100 to 10000</value>
+  </data>
+  <data name="strLabDeviceNo" xml:space="preserve">
+    <value>Device No.</value>
+  </data>
+  <data name="strGbReadMode" xml:space="preserve">
+    <value>Reading Mode</value>
+  </data>
+  <data name="strRbReadMultiTag" xml:space="preserve">
+    <value>Continuous Read</value>
+  </data>
+  <data name="strRbReadSingleTag" xml:space="preserve">
+    <value>Read Once</value>
+  </data>
+  <data name="strBtnClearFWData" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="strBtnFastWrite" xml:space="preserve">
+    <value>Rapid Write</value>
+  </data>
+  <data name="strBtnInitTag" xml:space="preserve">
+    <value>Initialize</value>
+  </data>
+  <data name="strBtnUnlockTag" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="strLabFWData" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="strLabFWPromotion" xml:space="preserve">
+    <value>Valid characters: 0-9 A-F, length:4、8、12、16、20、24bits (delimited by space)</value>
+  </data>
+  <data name="strMsgDataMustFourTimes" xml:space="preserve">
+    <value>Data bits must be 4 times</value>
+  </data>
+  <data name="strMsgDataNotEmpty" xml:space="preserve">
+    <value>Data is none</value>
+  </data>
+  <data name="strMsgFailedInit" xml:space="preserve">
+    <value>Failed to initialize tag.</value>
+  </data>
+  <data name="strMsgFailedUnlock" xml:space="preserve">
+    <value>Failed to unlock.</value>
+  </data>
+  <data name="strMsgInvalidDestIP" xml:space="preserve">
+    <value>Invalid destination IP</value>
+  </data>
+  <data name="strMsgInvalidGateway" xml:space="preserve">
+    <value>Invalid Gateway</value>
+  </data>
+  <data name="strMsgInvalidIP" xml:space="preserve">
+    <value>Invalid IP address.</value>
+  </data>
+  <data name="strMsgInvalidMask" xml:space="preserve">
+    <value>Invalid Mask</value>
+  </data>
+  <data name="strMsgSucceedInit" xml:space="preserve">
+    <value>Succeed to initialize tag.</value>
+  </data>
+  <data name="strMsgSucceedUnlock" xml:space="preserve">
+    <value>Succeed to unlock.</value>
+  </data>
+  <data name="strMsgInvalidDestPort" xml:space="preserve">
+    <value>Invalid destination port.</value>
+  </data>
+  <data name="strBtnClearFreq" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="strBtnDefaultCommMode" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="strBtnDefaultFreq" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="strBtnDefaultWorkMode" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="strBtnReadCommMode" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="strBtnReadFreq" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="strBtnReadWorkMode" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="strBtnSetCommMode" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetFreq" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetWorkMode" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strChkAjaDis" xml:space="preserve">
+    <value>Adja-Discri</value>
+  </data>
+  <data name="strGbCommModeParam" xml:space="preserve">
+    <value>Communication Mode</value>
+  </data>
+  <data name="strGbFreq" xml:space="preserve">
+    <value>Frequence and other params</value>
+  </data>
+  <data name="strLabCommMode" xml:space="preserve">
+    <value>Comm Mode</value>
+  </data>
+  <data name="strLabDelayUnit" xml:space="preserve">
+    <value>Second</value>
+  </data>
+  <data name="strLabFreqSet" xml:space="preserve">
+    <value>Freq mode</value>
+  </data>
+  <data name="strLabPower" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="strLabPulseCycle" xml:space="preserve">
+    <value>Pulse Cycle</value>
+  </data>
+  <data name="strLabPulseCycleUnit" xml:space="preserve">
+    <value>*100us</value>
+  </data>
+  <data name="strLabPulseWidth" xml:space="preserve">
+    <value>Pulse Width</value>
+  </data>
+  <data name="strLabPulseWidthUnit" xml:space="preserve">
+    <value>*10us</value>
+  </data>
+  <data name="strLabReadMode" xml:space="preserve">
+    <value>Reading mode</value>
+  </data>
+  <data name="strLabTimingParam" xml:space="preserve">
+    <value>Timint interval</value>
+  </data>
+  <data name="strLabTimingUnit" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="strLabTrigParam" xml:space="preserve">
+    <value>Trig Delay</value>
+  </data>
+  <data name="strLabTrigSwitch" xml:space="preserve">
+    <value>Trig switch</value>
+  </data>
+  <data name="strLabWiegandProtocol" xml:space="preserve">
+    <value>Wiegand Prot</value>
+  </data>
+  <data name="strLabWorkMode" xml:space="preserve">
+    <value>Work Mode</value>
+  </data>
+  <data name="strMsgFailedReadCommMode" xml:space="preserve">
+    <value>Failed to read communication mode params.</value>
+  </data>
+  <data name="strMsgFailedSetCommMode" xml:space="preserve">
+    <value>Failed to set communication mode params.</value>
+  </data>
+  <data name="strMsgInvalidDelayTime" xml:space="preserve">
+    <value>Delay time valid value is 0 to 240.</value>
+  </data>
+  <data name="strMsgInvalidDevNo" xml:space="preserve">
+    <value>Device number is 0 to 255.</value>
+  </data>
+  <data name="strMsgInvalidFreqMode" xml:space="preserve">
+    <value>Please select frequency mode.</value>
+  </data>
+  <data name="strMsgInvalidFreqPoint" xml:space="preserve">
+    <value>Invalid frequency point.</value>
+  </data>
+  <data name="strMsgInvalidPower" xml:space="preserve">
+    <value>Power valid value is 100 to 150.</value>
+  </data>
+  <data name="strMsgInvalidSingleOrMulti" xml:space="preserve">
+    <value>Please select single tag or multi tags.</value>
+  </data>
+  <data name="strMsgInvalidTimingParam" xml:space="preserve">
+    <value>Timing interval valid value is 2 to 100.</value>
+  </data>
+  <data name="strMsgInvalidTrigSwitch" xml:space="preserve">
+    <value>Please select trigger switch.</value>
+  </data>
+  <data name="strMsgInvalidWordMode" xml:space="preserve">
+    <value>Invalid work mode.</value>
+  </data>
+  <data name="strMsgSucceedSetCommMode" xml:space="preserve">
+    <value>Succeed to set communication mode params.</value>
+  </data>
+  <data name="strMsgSucceedSetFreq" xml:space="preserve">
+    <value>Succeed to set frequency params.</value>
+  </data>
+  <data name="strBtnModAuthPwd" xml:space="preserve">
+    <value>Modify AuthPwd</value>
+  </data>
+  <data name="strBtnSetBeep" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnSetUsbFormat" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="strBtnTagAuth" xml:space="preserve">
+    <value>Tag Authorization</value>
+  </data>
+  <data name="strGbBeepControl" xml:space="preserve">
+    <value>Read the Card Control</value>
+  </data>
+  <data name="strGbTagAuth" xml:space="preserve">
+    <value>Tag authorization</value>
+  </data>
+  <data name="strGbUsbFormat" xml:space="preserve">
+    <value>USB output format(only with double usb device)</value>
+  </data>
+  <data name="strLabAuthPwd" xml:space="preserve">
+    <value>Old AuthPwd(4 hex characters)</value>
+  </data>
+  <data name="strLabNewAuthPwd" xml:space="preserve">
+    <value>New AuthPwd(4 hex characters)</value>
+  </data>
+  <data name="strMsgFailedAuth" xml:space="preserve">
+    <value>Failed to tag authorization</value>
+  </data>
+  <data name="strMsgFailedBeepControl" xml:space="preserve">
+    <value>Failed to set beep control.</value>
+  </data>
+  <data name="strMsgFailedSetAuthPwd" xml:space="preserve">
+    <value>Failed to set AuthPwd</value>
+  </data>
+  <data name="strMsgFailedSetUsbFormat" xml:space="preserve">
+    <value>Failed to set usb format.</value>
+  </data>
+  <data name="strMsgInvalidBeepControl" xml:space="preserve">
+    <value>Please a valid option.</value>
+  </data>
+  <data name="strMsgInvalidChar" xml:space="preserve">
+    <value>contains invalid characters</value>
+  </data>
+  <data name="strMsgInvalidOldPwd" xml:space="preserve">
+    <value>Original password error</value>
+  </data>
+  <data name="strMsgInvalidUsbFormat" xml:space="preserve">
+    <value>Please select a valid format.</value>
+  </data>
+  <data name="strMsgPwdMustFour" xml:space="preserve">
+    <value>AuthPwd must be 4 bits.</value>
+  </data>
+  <data name="strMsgSuccedSetAuthPwd" xml:space="preserve">
+    <value>Succeed to set AuthPwd</value>
+  </data>
+  <data name="strMsgSucceedAuth" xml:space="preserve">
+    <value>Succeed to tag authorization</value>
+  </data>
+  <data name="strMsgSucceedBeepControl" xml:space="preserve">
+    <value>Succeed to set beep control.</value>
+  </data>
+  <data name="strMsgSucceedSetUsbFormat" xml:space="preserve">
+    <value>Succeed to set usb format.</value>
+  </data>
+  <data name="strTpOtherOpr" xml:space="preserve">
+    <value>Other operation</value>
+  </data>
+  <data name="strChkSaveFile" xml:space="preserve">
+    <value>Save as file</value>
+  </data>
+  <data name="strMsgFailedOpenFile" xml:space="preserve">
+    <value>Failed to open file.</value>
+  </data>
+  <data name="btnSetRelayTime" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="ClosePrompt" xml:space="preserve">
+    <value>prompt</value>
+  </data>
+  <data name="GopRelayControl" xml:space="preserve">
+    <value>Relay Control</value>
+  </data>
+  <data name="lblCloseTime" xml:space="preserve">
+    <value>Closing time (S)</value>
+  </data>
+  <data name="MainWindowFormClosing" xml:space="preserve">
+    <value>To determine the exit software!</value>
+  </data>
+  <data name="MsgSetRelayTime" xml:space="preserve">
+    <value>Please select a specific time value</value>
+  </data>
+  <data name="rdoCloseRelay" xml:space="preserve">
+    <value>Passivity</value>
+  </data>
+  <data name="rdoOpenRelay" xml:space="preserve">
+    <value>Initiative</value>
+  </data>
+  <data name="strMsgfaileBeepControl" xml:space="preserve">
+    <value>Set Failed</value>
+  </data>
+  <data name="MsgOpenExcel" xml:space="preserve">
+    <value>Export success, whether to open the document!</value>
+  </data>
+  <data name="MsgSaveExcel" xml:space="preserve">
+    <value>Data export Excel failed!</value>
+  </data>
+  <data name="SaveExcel" xml:space="preserve">
+    <value>Whether you need to save the Excel</value>
+  </data>
+  <data name="btnReadBeep" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="btnReadSpeed" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="btnSetReadSpeed" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblReadSpeed" xml:space="preserve">
+    <value>Speed(MS)</value>
+  </data>
+  <data name="lblReadVoice" xml:space="preserve">
+    <value>Buzzer Voice</value>
+  </data>
+  <data name="lblWigginsTakePlaceValue" xml:space="preserve">
+    <value>Wiggins Value</value>
+  </data>
+  <data name="StrMsgcbbRelayTime" xml:space="preserve">
+    <value>Please select or enter the closing time</value>
+  </data>
+  <data name="strMsgFailedSetReadSpeed" xml:space="preserve">
+    <value>Read the card speed setting failure</value>
+  </data>
+  <data name="strMsgInvalidCommMode" xml:space="preserve">
+    <value>Please select a communication way</value>
+  </data>
+  <data name="strMsgInvalidPulseCycle" xml:space="preserve">
+    <value>Please set the pulse cycle</value>
+  </data>
+  <data name="strMsgInvalidPulseWidth" xml:space="preserve">
+    <value>Please set wiggins pulse width</value>
+  </data>
+  <data name="strMsgInvalidReadSpeedSet" xml:space="preserve">
+    <value>Please select speed (ms)</value>
+  </data>
+  <data name="strMsgInvalidWiegandProto" xml:space="preserve">
+    <value>Please select a wiggins agreement</value>
+  </data>
+  <data name="strMsgInvalidWiegandValue" xml:space="preserve">
+    <value>Please select a wigan take place value</value>
+  </data>
+  <data name="strMsgSucceedSetReadSpeed" xml:space="preserve">
+    <value>Read the card speed setting success</value>
+  </data>
+  <data name="btnReadRelayTime" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="rdoClose1" xml:space="preserve">
+    <value>Close 1</value>
+  </data>
+  <data name="rdoClose2" xml:space="preserve">
+    <value>Close 2</value>
+  </data>
+  <data name="rdoOpen1" xml:space="preserve">
+    <value>Open 1</value>
+  </data>
+  <data name="rdoOpen2" xml:space="preserve">
+    <value>Open 2</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnReadRelayTime" xml:space="preserve">
+    <value>Relay closure time read failure</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnSetRelayTime" xml:space="preserve">
+    <value>Relay closed time setting failed</value>
+  </data>
+  <data name="strMsgSucceedInvalidbtnReadRelayTime" xml:space="preserve">
+    <value>Relay closure time reading success</value>
+  </data>
+  <data name="strMsgSucceedInvalidbtnSetRelayTime" xml:space="preserve">
+    <value>Relay closed time setting success</value>
+  </data>
+  <data name="chkZD" xml:space="preserve">
+    <value>Automatic Add 1</value>
+  </data>
+  <data name="btnAntRead" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="btnAntSet" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="chkAnt1" xml:space="preserve">
+    <value>Ant1</value>
+  </data>
+  <data name="chkAnt2" xml:space="preserve">
+    <value>Ant2</value>
+  </data>
+  <data name="chkAnt3" xml:space="preserve">
+    <value>Ant3</value>
+  </data>
+  <data name="chkAnt4" xml:space="preserve">
+    <value>Ant4</value>
+  </data>
+  <data name="chkAnt5" xml:space="preserve">
+    <value>Ant5</value>
+  </data>
+  <data name="chkAnt6" xml:space="preserve">
+    <value>Ant6</value>
+  </data>
+  <data name="chkAnt7" xml:space="preserve">
+    <value>Ant7</value>
+  </data>
+  <data name="chkAnt8" xml:space="preserve">
+    <value>Ant8</value>
+  </data>
+  <data name="grpAntSet" xml:space="preserve">
+    <value>Antenna Set</value>
+  </data>
+  <data name="rdobtnAntMore" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="rdobtnAntOne" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="strMsgbtnAntReadSuccess" xml:space="preserve">
+    <value>Antenna read success</value>
+  </data>
+  <data name="strMsgbtnAntSetSuccess" xml:space="preserve">
+    <value>Antenna setting success</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnAntRead" xml:space="preserve">
+    <value>Antenna read failure</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnAntSet" xml:space="preserve">
+    <value>Antenna setting failure</value>
+  </data>
+  <data name="strMsgSelectRates" xml:space="preserve">
+    <value>Please select a rates</value>
+  </data>
+  <data name="strSetRate" xml:space="preserve">
+    <value>Please select a Rate</value>
+  </data>
+  <data name="strMsgFailedSetFreq" xml:space="preserve">
+    <value>Fail to set frequency params.</value>
+  </data>
+  <data name="strCommPort" xml:space="preserve">
+    <value>SerialPort</value>
+  </data>
+  <data name="strDatas" xml:space="preserve">
+    <value>BaudRate</value>
+  </data>
+  <data name="strIP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="strLabCommPort1" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="strBtnConnRead" xml:space="preserve">
+    <value>Conn Read</value>
+  </data>
+  <data name="strStopRead" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="areaStr" xml:space="preserve">
+    <value>AccessArea</value>
+  </data>
+  <data name="bathTagAccess" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="beforeWriteDataStr" xml:space="preserve">
+    <value>Data before writing</value>
+  </data>
+  <data name="checkResultStr" xml:space="preserve">
+    <value>CheckResult</value>
+  </data>
+  <data name="checkStartStr" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="clearDataAllStr" xml:space="preserve">
+    <value>ClearAllData</value>
+  </data>
+  <data name="clearDataAreaStr" xml:space="preserve">
+    <value>ClearWrittenData</value>
+  </data>
+  <data name="clearDataStr" xml:space="preserve">
+    <value>ClearData</value>
+  </data>
+  <data name="excelCreatErrorStr" xml:space="preserve">
+    <value>Unable to create Excel object, your computer may not have Excel installed.</value>
+  </data>
+  <data name="excelPathErrorStr" xml:space="preserve">
+    <value>An error occurred while exporting the file. The file may be open or the file path does not exist! \n</value>
+  </data>
+  <data name="excelSaveSuccessStr" xml:space="preserve">
+    <value>Data Saved Successful</value>
+  </data>
+  <data name="finishWriteStr" xml:space="preserve">
+    <value>All the tags have been written</value>
+  </data>
+  <data name="formStr" xml:space="preserve">
+    <value>form</value>
+  </data>
+  <data name="imporDataFormatSetStr" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="imporDataFormatStr" xml:space="preserve">
+    <value>ImportDataFormatting</value>
+  </data>
+  <data name="imporDataLentStr" xml:space="preserve">
+    <value>ImportDataLength</value>
+  </data>
+  <data name="importErrorMsgStr" xml:space="preserve">
+    <value>If the length of imported data is incorrect, the original data can be imported or modified by adding 0.</value>
+  </data>
+  <data name="importsourceStr" xml:space="preserve">
+    <value>ImportSourceData</value>
+  </data>
+  <data name="importStr" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="otherStr" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="startStr" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="stateStr" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sureStr" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="unWriteStr" xml:space="preserve">
+    <value>UnwrittenTag</value>
+  </data>
+  <data name="writeDataSetStr" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="WriteFailed" xml:space="preserve">
+    <value>failure</value>
+  </data>
+  <data name="WriteSuccess" xml:space="preserve">
+    <value>successfully</value>
+  </data>
+  <data name="advancedAccessStr" xml:space="preserve">
+    <value>AdvancedAccessTag</value>
+  </data>
+  <data name="AuthorizationResult" xml:space="preserve">
+    <value>Result:</value>
+  </data>
+  <data name="authorizationSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="NoneAuthorizationTag" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="saveAsStr" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="saveStr" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="startAutoAuthorization" xml:space="preserve">
+    <value>AutoStart</value>
+  </data>
+  <data name="stopAutoAuthorization" xml:space="preserve">
+    <value>AutoStop</value>
+  </data>
+  <data name="cupageStr" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="DataAreaStr" xml:space="preserve">
+    <value>Data Area:</value>
+  </data>
+  <data name="HomePageStr" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="IncreaseStr" xml:space="preserve">
+    <value>Increase:</value>
+  </data>
+  <data name="JumpStr" xml:space="preserve">
+    <value>Jump</value>
+  </data>
+  <data name="NePageStr" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NumberStr" xml:space="preserve">
+    <value>Number:</value>
+  </data>
+  <data name="pageStr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrePageStr" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="SampleStr" xml:space="preserve">
+    <value>Sample:</value>
+  </data>
+  <data name="StartValueStr" xml:space="preserve">
+    <value>StartValue:</value>
+  </data>
+  <data name="TailPageStr" xml:space="preserve">
+    <value>Tail</value>
+  </data>
+  <data name="AddStr" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="AutoStepImport" xml:space="preserve">
+    <value>ImportDataByStep</value>
+  </data>
+  <data name="DeleteStr" xml:space="preserve">
+    <value>DEL</value>
+  </data>
+  <data name="ImportAllData" xml:space="preserve">
+    <value>ImportCompleteData</value>
+  </data>
+  <data name="LenStr" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="NoArea" xml:space="preserve">
+    <value>Write data does not contain this region</value>
+  </data>
+  <data name="NoInvaludeLine" xml:space="preserve">
+    <value>Check if excel contains RFU, EPC, USER columns</value>
+  </data>
+  <data name="StrFormatError" xml:space="preserve">
+    <value>Incorrect data format</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="startValue" xml:space="preserve">
+    <value>StartingPosition</value>
+  </data>
+  <data name="strWeigand" xml:space="preserve">
+    <value>Weigen transformation</value>
+  </data>
+  <data name="strWeigand21" xml:space="preserve">
+    <value>Wigan 2+1 Mode</value>
+  </data>
+  <data name="strWeigand30" xml:space="preserve">
+    <value>Wigan 3+0 Mode</value>
+  </data>
+  <data name="strMsgFailedSetWorkMode" xml:space="preserve">
+    <value>Failed to set workmode</value>
+  </data>
+  <data name="strMsgSucceedSetWorkMode" xml:space="preserve">
+    <value>Successed to set workmode</value>
+  </data>
+  <data name="strReadByAnt" xml:space="preserve">
+    <value>ReadByAnt</value>
+  </data>
+  <data name="strWriteByAnt" xml:space="preserve">
+    <value>WriteByAnt</value>
+  </data>
+  <data name="strGetBeepFailed" xml:space="preserve">
+    <value>Failed to query buzzer status</value>
+  </data>
+  <data name="strGetDoubleUSBFailed" xml:space="preserve">
+    <value>Failed to query double U-port data output format</value>
+  </data>
+  <data name="strGetQuencyDataFormatFailed" xml:space="preserve">
+    <value>Failed to query the data format of inventory data</value>
+  </data>
+  <data name="strSwitch" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="sf" xml:space="preserve">
+    <value />
+  </data>
+  <data name="strMultiReadMode1" xml:space="preserve">
+    <value>MultiWordsTag</value>
+  </data>
+  <data name="strReadStopTips" xml:space="preserve">
+    <value>Please stop Reading Tags and then operate them.</value>
+  </data>
+  <data name="strSingleReadMode" xml:space="preserve">
+    <value>FixedLengthTag</value>
+  </data>
+  <data name="strGetAuthorizationCode" xml:space="preserve">
+    <value>QueryAuthorizationCode</value>
+  </data>
+  <data name="strFormatEPC" xml:space="preserve">
+    <value>EPCDataFormat</value>
+  </data>
+  <data name="strNonStandardLength" xml:space="preserve">
+    <value>Non-standard length EPC</value>
+  </data>
+  <data name="strStandardLength" xml:space="preserve">
+    <value>Standard 12-byte EPC</value>
+  </data>
+  <data name="strLvTemp" xml:space="preserve">
+    <value>Temp</value>
+  </data>
+  <data name="MsgChoosebtnConnect" xml:space="preserve">
+    <value>Please select a device to connect!</value>
+  </data>
+  <data name="strLvUart_IP" xml:space="preserve">
+    <value>Uart/IP</value>
+  </data>
+  <data name="strMsgSucceedReadCommMode" xml:space="preserve">
+    <value>Succeed to get communication mode params.</value>
+  </data>
+  <data name="btnStartMonitor" xml:space="preserve">
+    <value>Start Monitor</value>
+  </data>
+  <data name="btnStopMonitor" xml:space="preserve">
+    <value>Stop Monitor</value>
+  </data>
+  <data name="btnBrushVersion" xml:space="preserve">
+    <value>Brush</value>
+  </data>
+  <data name="btnReadFastTag" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="btnReadVersionInfo" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="gbKillTag" xml:space="preserve">
+    <value>Kill Tag</value>
+  </data>
+  <data name="gbTagInitialize" xml:space="preserve">
+    <value>Tag Initialize</value>
+  </data>
+  <data name="gbTagLockAndUnlock" xml:space="preserve">
+    <value>Tag Lock And Unlock</value>
+  </data>
+  <data name="gbVersionInfo" xml:space="preserve">
+    <value>Version Info</value>
+  </data>
+  <data name="btnGetReadMode" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="btnReadDeviceId" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="btnReadEPCDataFormat" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="btnReadPower" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="btnReadSerialNumber" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="btnSetDeviceId" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnSetEPCDataFormat" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnSetPower" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnSetReadMode" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnSetSerialNumber" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="gbDataOutputFormat" xml:space="preserve">
+    <value>Data Output Format</value>
+  </data>
+  <data name="gbNotDoubleUSBDevice" xml:space="preserve">
+    <value>Not Double USB Device</value>
+  </data>
+  <data name="gbSerialNumber" xml:space="preserve">
+    <value>Reader Serial Number(Only Manufacturers Use)</value>
+  </data>
+  <data name="lblFrequencyArea" xml:space="preserve">
+    <value>Frequency Area</value>
+  </data>
+  <data name="lblInfoShow" xml:space="preserve">
+    <value>Info Prompt:</value>
+  </data>
+  <data name="strMessagePleaseStartMonitor" xml:space="preserve">
+    <value>Please Start Monitor</value>
+  </data>
+  <data name="strMessageRepeatedConnection" xml:space="preserve">
+    <value>Repeated Connection</value>
+  </data>
+  <data name="strMessageSerialportConnectException" xml:space="preserve">
+    <value>SerialPort Connect  Exception!</value>
+  </data>
+  <data name="strMessageStartMonitorFailure" xml:space="preserve">
+    <value>Start Monitor Failure</value>
+  </data>
+  <data name="strMessageStartMonitorSuccessed" xml:space="preserve">
+    <value>Start Monitor Successed</value>
+  </data>
+  <data name="strMessageStopMonitorFailure" xml:space="preserve">
+    <value>Stop Monitor Failure</value>
+  </data>
+  <data name="strMessageStopMonitorSuccessed" xml:space="preserve">
+    <value>Stop Monitor Successed</value>
+  </data>
+  <data name="strMessageTCPClientConnectException" xml:space="preserve">
+    <value>TCP Client Connect  Exception</value>
+  </data>
+  <data name="strMessageTCPServerConnectException" xml:space="preserve">
+    <value>TCP Server Connect Exception</value>
+  </data>
+  <data name="tpEU_Band" xml:space="preserve">
+    <value>EU Band</value>
+  </data>
+  <data name="tpInitiative" xml:space="preserve">
+    <value>Initiative</value>
+  </data>
+  <data name="tpKorea_Band" xml:space="preserve">
+    <value>Korea Band</value>
+  </data>
+  <data name="tpMaster" xml:space="preserve">
+    <value>Master/Slave</value>
+  </data>
+  <data name="tpPassivity" xml:space="preserve">
+    <value>Passivity</value>
+  </data>
+  <data name="tpRS485_RJ45" xml:space="preserve">
+    <value>RS485/RJ45</value>
+  </data>
+  <data name="tpSerialPorts" xml:space="preserve">
+    <value>SerialPort</value>
+  </data>
+  <data name="tpTiming" xml:space="preserve">
+    <value>Timing</value>
+  </data>
+  <data name="tpTrigger" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="tpUSA_Band" xml:space="preserve">
+    <value>USA Band</value>
+  </data>
+  <data name="tpWiegand" xml:space="preserve">
+    <value>Wiegand</value>
+  </data>
+  <data name="strGetAuthorizationCodeFailure" xml:space="preserve">
+    <value>Query Authorization Code Failure</value>
+  </data>
+  <data name="strGetAuthorizationCodeSuccessed" xml:space="preserve">
+    <value>Query Authorization Code Successed</value>
+  </data>
+  <data name="strMessageQueryNotUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>Query Not USB Device Output Format Failure</value>
+  </data>
+  <data name="strMessageQueryNotUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>Query Not USB Device Output Format Successed</value>
+  </data>
+  <data name="strMessageQueryUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>Query USB Device Output Format Failure</value>
+  </data>
+  <data name="strMessageQueryUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>Query USB Device Output Format Successed</value>
+  </data>
+  <data name="strMessageReadOnceFailure" xml:space="preserve">
+    <value>Read Once Failure</value>
+  </data>
+  <data name="strMessageReadOnceSuccessed" xml:space="preserve">
+    <value>Read Once Successed</value>
+  </data>
+  <data name="strMessageUpdateNotUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>Update Not USB Device Output Format Failure</value>
+  </data>
+  <data name="strMessageUpdateNotUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>Update Not USB Device Output Format Successed</value>
+  </data>
+  <data name="strMessageUpdateUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>Update USB Device Output Format Failure</value>
+  </data>
+  <data name="strMessageUpdateUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>Update USB Device Output Format Successed</value>
+  </data>
+  <data name="strMsgConnectSuccessed" xml:space="preserve">
+    <value>Connect Successed</value>
+  </data>
+  <data name="strMsgDisconnectConnectFailure" xml:space="preserve">
+    <value>Disconnect Connect Failure</value>
+  </data>
+  <data name="strMsgDisconnectConnectSuccessed" xml:space="preserve">
+    <value>Disconnect Connect Successed</value>
+  </data>
+  <data name="strMsgQueryVersionFailure" xml:space="preserve">
+    <value>Query Version Failure</value>
+  </data>
+  <data name="strMsgQueryVersionSuccessed" xml:space="preserve">
+    <value>Query Version Successed</value>
+  </data>
+  <data name="strGetBeepSuccessed" xml:space="preserve">
+    <value>Query Beep Successed</value>
+  </data>
+  <data name="strMessagePleaseChoose" xml:space="preserve">
+    <value>Please Choose</value>
+  </data>
+  <data name="strMessageQueryDeviceNoFailure" xml:space="preserve">
+    <value>Query Device No. Failure</value>
+  </data>
+  <data name="strMessageQueryDeviceNoSuccessed" xml:space="preserve">
+    <value>Query Device No. Successed</value>
+  </data>
+  <data name="strMessageQueryDeviceSerialNumberFailure" xml:space="preserve">
+    <value>Query Device Serial Number Failure</value>
+  </data>
+  <data name="strMessageQueryDeviceSerialNumberSuccessed" xml:space="preserve">
+    <value>Query Device Serial Number Successed</value>
+  </data>
+  <data name="strMessageQueryOperationAreaFailure" xml:space="preserve">
+    <value>Query Operation Area Failure</value>
+  </data>
+  <data name="strMessageQueryOperationAreaSuccessed" xml:space="preserve">
+    <value>Query Operation Area Successed</value>
+  </data>
+  <data name="strMessageQueryPowerFailure" xml:space="preserve">
+    <value>Query Power Failure</value>
+  </data>
+  <data name="strMessageQueryPowerSuccessed" xml:space="preserve">
+    <value>Query Power Successed</value>
+  </data>
+  <data name="strMessageQueryReadTagModeFailure" xml:space="preserve">
+    <value>Query Read Tag Mode Failure</value>
+  </data>
+  <data name="strMessageQueryReadTagModeSuccessed" xml:space="preserve">
+    <value>Query Read Tag Mode Successed</value>
+  </data>
+  <data name="strMessageUpdateDeviceNoFailure" xml:space="preserve">
+    <value>Update Device No. Failure</value>
+  </data>
+  <data name="strMessageUpdateDeviceNoSuccessed" xml:space="preserve">
+    <value>Update Device No. Successed</value>
+  </data>
+  <data name="strMessageUpdateDeviceSerialNumberFailure" xml:space="preserve">
+    <value>Update Device Serial Number Failure</value>
+  </data>
+  <data name="strMessageUpdateDeviceSerialNumberSuccessed" xml:space="preserve">
+    <value>Update Device Serial Number Successed</value>
+  </data>
+  <data name="strMessageUpdateOperationAreaFailure" xml:space="preserve">
+    <value>Update Operation Area Failure</value>
+  </data>
+  <data name="strMessageUpdateOperationAreaSuccessed" xml:space="preserve">
+    <value>Update Operation Area Successed</value>
+  </data>
+  <data name="strMessageUpdatePowerFailure" xml:space="preserve">
+    <value>Update Power Failure</value>
+  </data>
+  <data name="strMessageUpdatePowerSuccessed" xml:space="preserve">
+    <value>Update Power Successed</value>
+  </data>
+  <data name="strMessageUpdateReadTagModeFailure" xml:space="preserve">
+    <value>Update Read Tag Mode Failure</value>
+  </data>
+  <data name="strMessageUpdateReadTagModeSuccessed" xml:space="preserve">
+    <value>Update Read Tag Mode Successed</value>
+  </data>
+  <data name="strMsgFailureGetFreq" xml:space="preserve">
+    <value>Query Frequency Failure</value>
+  </data>
+  <data name="strMsgSucceedGetFreq" xml:space="preserve">
+    <value>Query Frequency Successed</value>
+  </data>
+  <data name="strMsgSucceedGetWorkMode" xml:space="preserve">
+    <value>Query Work Mode Successed</value>
+  </data>
+  <data name="strMessageContinueReadTagFailure" xml:space="preserve">
+    <value>Continue Read Tag Failure</value>
+  </data>
+  <data name="strMessageContinueReadTagSuccessed" xml:space="preserve">
+    <value>Continue Read Tag Successed</value>
+  </data>
+  <data name="strMessageStopContinueReadTagFailure" xml:space="preserve">
+    <value>Stop Continue Read Tag Failure</value>
+  </data>
+  <data name="strMessageStopContinueReadTagSuccessed" xml:space="preserve">
+    <value>Stop Continue Read Tag Successed</value>
+  </data>
+  <data name="strLvCurrentTime" xml:space="preserve">
+    <value>Read Tag Time</value>
+  </data>
+</root>

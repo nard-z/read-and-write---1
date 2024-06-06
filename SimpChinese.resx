@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strBtnClearEditData" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="strBtnClearListView" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="strBtnConnect" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="strBtnDefaultParams" xml:space="preserve">
+    <value>默认参数</value>
+  </data>
+  <data name="strBtnDisconnect" xml:space="preserve">
+    <value>断开</value>
+  </data>
+  <data name="strBtnGetAnts" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="strBtnGetDI" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="strBtnKillTag" xml:space="preserve">
+    <value>销毁标签</value>
+  </data>
+  <data name="strBtnModifyDev" xml:space="preserve">
+    <value>编辑设备</value>
+  </data>
+  <data name="strBtnLock" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="strBtnReadOnce" xml:space="preserve">
+    <value>单次读卡</value>
+  </data>
+  <data name="strBtnReadTagData" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="strBtnSearchDev" xml:space="preserve">
+    <value>搜索设备</value>
+  </data>
+  <data name="strBtnSetAlive" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetAnts" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetDevNo" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetDO" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetNeighJudge" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetParams" xml:space="preserve">
+    <value>设置参数</value>
+  </data>
+  <data name="strBtnStartReadData" xml:space="preserve">
+    <value>连续读卡</value>
+  </data>
+  <data name="strBtnStopReadData" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="strBtnUpdate" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="strBtnWriteTagData" xml:space="preserve">
+    <value>写入</value>
+  </data>
+  <data name="strCbAnt1" xml:space="preserve">
+    <value>1号</value>
+  </data>
+  <data name="strCbAnt2" xml:space="preserve">
+    <value>2号</value>
+  </data>
+  <data name="strCbAnt3" xml:space="preserve">
+    <value>3号</value>
+  </data>
+  <data name="strCbAnt4" xml:space="preserve">
+    <value>4号</value>
+  </data>
+  <data name="strCbIn1" xml:space="preserve">
+    <value>输入口1</value>
+  </data>
+  <data name="strCbIn2" xml:space="preserve">
+    <value>输入口2</value>
+  </data>
+  <data name="strCbOut1" xml:space="preserve">
+    <value>输出口1</value>
+  </data>
+  <data name="strCbOut2" xml:space="preserve">
+    <value>输出口2</value>
+  </data>
+  <data name="strGbAntParams" xml:space="preserve">
+    <value>天线参数</value>
+  </data>
+  <data name="strGbCommMode" xml:space="preserve">
+    <value>通信方式</value>
+  </data>
+  <data name="strGbAdvanceOpr" xml:space="preserve">
+    <value>高级操作</value>
+  </data>
+  <data name="strGbDevParams" xml:space="preserve">
+    <value>设备参数</value>
+  </data>
+  <data name="strGbIOOpr" xml:space="preserve">
+    <value>IO操作</value>
+  </data>
+  <data name="strGbFastWrite" xml:space="preserve">
+    <value>快写标签</value>
+  </data>
+  <data name="strGbNetParams" xml:space="preserve">
+    <value>网络参数</value>
+  </data>
+  <data name="strGbRWData" xml:space="preserve">
+    <value>读/写数据</value>
+  </data>
+  <data name="strGbSPParams" xml:space="preserve">
+    <value>串口参数</value>
+  </data>
+  <data name="strItemPerUnwritable" xml:space="preserve">
+    <value>永久不可写</value>
+  </data>
+  <data name="strItemPerWritable" xml:space="preserve">
+    <value>永久可写</value>
+  </data>
+  <data name="strItemSecuLock" xml:space="preserve">
+    <value>安全锁定</value>
+  </data>
+  <data name="strItemUnLock" xml:space="preserve">
+    <value>解锁</value>
+  </data>
+  <data name="strLabAlive" xml:space="preserve">
+    <value>心跳时间</value>
+  </data>
+  <data name="strLabAntUnit" xml:space="preserve">
+    <value>毫秒     1/10dbm</value>
+  </data>
+  <data name="strLabBaudRate" xml:space="preserve">
+    <value>波特率</value>
+  </data>
+  <data name="strLabCheckBits" xml:space="preserve">
+    <value>校验位</value>
+  </data>
+  <data name="strLabCommPort" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="strLabCount" xml:space="preserve">
+    <value>读取次数：</value>
+  </data>
+  <data name="strLabDataBits" xml:space="preserve">
+    <value>数据位</value>
+  </data>
+  <data name="strLabDestIP" xml:space="preserve">
+    <value>目的IP(单击获本机IP)</value>
+  </data>
+  <data name="strLabDestPort" xml:space="preserve">
+    <value>目的端口</value>
+  </data>
+  <data name="strLabDestrlyPwd" xml:space="preserve">
+    <value>销毁密码</value>
+  </data>
+  <data name="strLabDestroyAccessPwd" xml:space="preserve">
+    <value>访问密码</value>
+  </data>
+  <data name="strLabDevNo" xml:space="preserve">
+    <value>设备号</value>
+  </data>
+  <data name="strLabGateway" xml:space="preserve">
+    <value>网关</value>
+  </data>
+  <data name="strLabIPAdd" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
+  <data name="strLabIPMode" xml:space="preserve">
+    <value>IP模式</value>
+  </data>
+  <data name="strLabLength" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="strLabLockAccessPwd" xml:space="preserve">
+    <value>访问密码</value>
+  </data>
+  <data name="strLabLockBank" xml:space="preserve">
+    <value>操作区域</value>
+  </data>
+  <data name="strLabLockType" xml:space="preserve">
+    <value>操作类型</value>
+  </data>
+  <data name="strLabMask" xml:space="preserve">
+    <value>子网掩码</value>
+  </data>
+  <data name="strLabNeighJudge" xml:space="preserve">
+    <value>相邻判别</value>
+  </data>
+  <data name="strLabNetMode" xml:space="preserve">
+    <value>网络模式</value>
+  </data>
+  <data name="strLabPort" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="strLabPromotion" xml:space="preserve">
+    <value>以下设置仅适用于TCP客户端模式：</value>
+  </data>
+  <data name="strLabRWAccessPwd" xml:space="preserve">
+    <value>访问密码</value>
+  </data>
+  <data name="strLabRWBank" xml:space="preserve">
+    <value>操作区域</value>
+  </data>
+  <data name="strLabRWData" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="strLabStartAdd" xml:space="preserve">
+    <value>起始地址</value>
+  </data>
+  <data name="strLabTagCount" xml:space="preserve">
+    <value>标签数：</value>
+  </data>
+  <data name="strLvHeadAntNo" xml:space="preserve">
+    <value>天线号</value>
+  </data>
+  <data name="strLvHeadCount" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="strLvHeadDevNo" xml:space="preserve">
+    <value>设备号</value>
+  </data>
+  <data name="strLvHeadEPC" xml:space="preserve">
+    <value>EPC/TID</value>
+  </data>
+  <data name="strLvHeadNo" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="strRbAsc" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="strRbDesc" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="strRbNet" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="strRbSerialPort" xml:space="preserve">
+    <value>串口</value>
+  </data>
+  <data name="strTpGeneral" xml:space="preserve">
+    <value>基本操作</value>
+  </data>
+  <data name="strTpSetCommParam" xml:space="preserve">
+    <value>通信参数设置</value>
+  </data>
+  <data name="strTpSetReaderParam" xml:space="preserve">
+    <value>读写器参数设置</value>
+  </data>
+  <data name="strTpTagAccess" xml:space="preserve">
+    <value>标签读写</value>
+  </data>
+  <data name="strZlHeadIP" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
+  <data name="strZlHeadMAC" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="strZlHeadNo" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="strZlHeadPort" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="stMsgNJValid" xml:space="preserve">
+    <value>相邻判别时间的有效值是0－255</value>
+  </data>
+  <data name="strMsgAliveNotEmpty" xml:space="preserve">
+    <value>心跳时间不能为空</value>
+  </data>
+  <data name="strMsgAliveValid" xml:space="preserve">
+    <value>心跳时间的有效值是0－255</value>
+  </data>
+  <data name="strMsgConnectFailure" xml:space="preserve">
+    <value>连接失败</value>
+  </data>
+  <data name="strMsgDevNoNotEmpty" xml:space="preserve">
+    <value>设备号不能为空</value>
+  </data>
+  <data name="strMsgDevNoValid" xml:space="preserve">
+    <value>设备号的有效值是0－255</value>
+  </data>
+  <data name="strMsgFailedDes" xml:space="preserve">
+    <value>销毁失败</value>
+  </data>
+  <data name="strMsgFailedGetAnt" xml:space="preserve">
+    <value>读取天线参数失败</value>
+  </data>
+  <data name="strMsgFailedGetIn" xml:space="preserve">
+    <value>获取输入口状态失败</value>
+  </data>
+  <data name="strMsgFailedLock" xml:space="preserve">
+    <value>锁定失败</value>
+  </data>
+  <data name="strMsgFailedReadData" xml:space="preserve">
+    <value>读数据失败</value>
+  </data>
+  <data name="strMsgFailedSetAlive" xml:space="preserve">
+    <value>心跳时间设置失败</value>
+  </data>
+  <data name="strMsgFailedSetAnt" xml:space="preserve">
+    <value>设置天线参数失败</value>
+  </data>
+  <data name="strMsgFailedSetCommParam" xml:space="preserve">
+    <value>通信参数设置失败</value>
+  </data>
+  <data name="strMsgFailedSetDevNo" xml:space="preserve">
+    <value>设备号设置失败</value>
+  </data>
+  <data name="strMsgFailedSetWorkMode" xml:space="preserve">
+    <value>工作模式参数设置失败</value>
+  </data>
+  <data name="strMsgFailedSetOut" xml:space="preserve">
+    <value>输出口设置失败</value>
+  </data>
+  <data name="strMsgFailedWrite" xml:space="preserve">
+    <value>写入失败</value>
+  </data>
+  <data name="strMsgInitFailure" xml:space="preserve">
+    <value>初始化失败</value>
+  </data>
+  <data name="strMsgInvalidIPAdd" xml:space="preserve">
+    <value>无效的IP地址</value>
+  </data>
+  <data name="strMsgInvalidPort" xml:space="preserve">
+    <value>无效的端口号</value>
+  </data>
+  <data name="strMsgLengthDiff" xml:space="preserve">
+    <value>实际数据长度和指定的长度不同</value>
+  </data>
+  <data name="strMsgInvalidNJ" xml:space="preserve">
+    <value>相邻判别时间有效值1-255</value>
+  </data>
+  <data name="strMsgNotDigit" xml:space="preserve">
+    <value>含有非数字字符</value>
+  </data>
+  <data name="strMsgPowerValid" xml:space="preserve">
+    <value>功率有效值为200－300</value>
+  </data>
+  <data name="strMsgPwdInvalidChar" xml:space="preserve">
+    <value>含有0－9，A－F之外的非法字符</value>
+  </data>
+  <data name="strMsgPwdMustEight" xml:space="preserve">
+    <value>密码必须为8位</value>
+  </data>
+  <data name="strMsgSelecOprBank" xml:space="preserve">
+    <value>请选择要操作的区域</value>
+  </data>
+  <data name="strMsgSelectBaudRate" xml:space="preserve">
+    <value>请选择正确的波特率</value>
+  </data>
+  <data name="strMsgSelectDataBits" xml:space="preserve">
+    <value>请选择数据位</value>
+  </data>
+  <data name="strMsgSelectIPMode" xml:space="preserve">
+    <value>请选择IP地址模式</value>
+  </data>
+  <data name="strMsgSelectLength" xml:space="preserve">
+    <value>选择有效长度</value>
+  </data>
+  <data name="strMsgSelectNetMode" xml:space="preserve">
+    <value>请选择网络模式</value>
+  </data>
+  <data name="strMsgSelectOprType" xml:space="preserve">
+    <value>请选择操作类型</value>
+  </data>
+  <data name="strMsgSelectParity" xml:space="preserve">
+    <value>请选择校验方式</value>
+  </data>
+  <data name="strMsgSelectPort" xml:space="preserve">
+    <value>请选择正确的端口号</value>
+  </data>
+  <data name="strMsgSelectRWBank" xml:space="preserve">
+    <value>选择读写区域</value>
+  </data>
+  <data name="strMsgSelectStartAdd" xml:space="preserve">
+    <value>选择起始地址</value>
+  </data>
+  <data name="strMsgSucceedDes" xml:space="preserve">
+    <value>销毁成功</value>
+  </data>
+  <data name="strMsgSucceedGetAnt" xml:space="preserve">
+    <value>读取天线参数成功</value>
+  </data>
+  <data name="strMsgSucceedLock" xml:space="preserve">
+    <value>锁定成功</value>
+  </data>
+  <data name="strMsgSucceedSetAlive" xml:space="preserve">
+    <value>心跳时间设置成功</value>
+  </data>
+  <data name="strMsgSucceedSetAnt" xml:space="preserve">
+    <value>设置天线参数成功</value>
+  </data>
+  <data name="strMsgSucceedSetCommParam" xml:space="preserve">
+    <value>通信参数设置成功</value>
+  </data>
+  <data name="strMsgSucceedSetDevNo" xml:space="preserve">
+    <value>设备号设置成功</value>
+  </data>
+  <data name="strMsgSucceedSetWorkMode" xml:space="preserve">
+    <value>工作模式参数设置成功</value>
+  </data>
+  <data name="strMsgSucceedSetOut" xml:space="preserve">
+    <value>输出口设置成功</value>
+  </data>
+  <data name="strMsgSucceedWrite" xml:space="preserve">
+    <value>写入成功</value>
+  </data>
+  <data name="strMsgValidWT" xml:space="preserve">
+    <value>寻卡时间有效值为100－10000</value>
+  </data>
+  <data name="strLabDeviceNo" xml:space="preserve">
+    <value>设备号</value>
+  </data>
+  <data name="strGbReadMode" xml:space="preserve">
+    <value>读卡方式</value>
+  </data>
+  <data name="strRbReadMultiTag" xml:space="preserve">
+    <value>连续读卡</value>
+  </data>
+  <data name="strRbReadSingleTag" xml:space="preserve">
+    <value>单卡识别</value>
+  </data>
+  <data name="strBtnClearFWData" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="strBtnFastWrite" xml:space="preserve">
+    <value>快写</value>
+  </data>
+  <data name="strBtnInitTag" xml:space="preserve">
+    <value>初始化标签</value>
+  </data>
+  <data name="strBtnUnlockTag" xml:space="preserve">
+    <value>解锁</value>
+  </data>
+  <data name="strLabFWData" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="strLabFWPromotion" xml:space="preserve">
+    <value>有效字符：0-9,A-F, 长度是4的整倍数(4、8、12、16、20、24位(可以用空格分隔)</value>
+  </data>
+  <data name="strMsgDataMustFourTimes" xml:space="preserve">
+    <value>数据必须是４的整倍数</value>
+  </data>
+  <data name="strMsgDataNotEmpty" xml:space="preserve">
+    <value>数据不能为空</value>
+  </data>
+  <data name="strMsgFailedInit" xml:space="preserve">
+    <value>初始化标签失败</value>
+  </data>
+  <data name="strMsgFailedUnlock" xml:space="preserve">
+    <value>解锁失败</value>
+  </data>
+  <data name="strMsgInvalidDestIP" xml:space="preserve">
+    <value>无效目标IP</value>
+  </data>
+  <data name="strMsgInvalidGateway" xml:space="preserve">
+    <value>无效网关</value>
+  </data>
+  <data name="strMsgInvalidIP" xml:space="preserve">
+    <value>无效IP地址</value>
+  </data>
+  <data name="strMsgInvalidMask" xml:space="preserve">
+    <value>无效子网掩码</value>
+  </data>
+  <data name="strMsgSucceedInit" xml:space="preserve">
+    <value>初始化标签成功</value>
+  </data>
+  <data name="strMsgSucceedUnlock" xml:space="preserve">
+    <value>解锁成功</value>
+  </data>
+  <data name="strMsgInvalidDestPort" xml:space="preserve">
+    <value>无效的目标端口号</value>
+  </data>
+  <data name="strBtnClearFreq" xml:space="preserve">
+    <value>清除频点</value>
+  </data>
+  <data name="strBtnDefaultCommMode" xml:space="preserve">
+    <value>默认参数</value>
+  </data>
+  <data name="strBtnDefaultFreq" xml:space="preserve">
+    <value>默认参数</value>
+  </data>
+  <data name="strBtnDefaultWorkMode" xml:space="preserve">
+    <value>默认参数</value>
+  </data>
+  <data name="strBtnReadCommMode" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="strBtnReadFreq" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="strBtnReadWorkMode" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="strBtnSetCommMode" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetFreq" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetWorkMode" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strChkAjaDis" xml:space="preserve">
+    <value>相邻判别</value>
+  </data>
+  <data name="strGbCommModeParam" xml:space="preserve">
+    <value>通信方式</value>
+  </data>
+  <data name="strGbFreq" xml:space="preserve">
+    <value>频率和其它参数</value>
+  </data>
+  <data name="strLabCommMode" xml:space="preserve">
+    <value>通信方式</value>
+  </data>
+  <data name="strLabDelayUnit" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="strLabFreqSet" xml:space="preserve">
+    <value>频率设置</value>
+  </data>
+  <data name="strLabPower" xml:space="preserve">
+    <value>功率</value>
+  </data>
+  <data name="strLabPulseCycle" xml:space="preserve">
+    <value>脉冲周期</value>
+  </data>
+  <data name="strLabPulseCycleUnit" xml:space="preserve">
+    <value>*100微秒</value>
+  </data>
+  <data name="strLabPulseWidth" xml:space="preserve">
+    <value>脉冲宽度</value>
+  </data>
+  <data name="strLabPulseWidthUnit" xml:space="preserve">
+    <value>*10微秒</value>
+  </data>
+  <data name="strLabReadMode" xml:space="preserve">
+    <value>读卡模式</value>
+  </data>
+  <data name="strLabTimingParam" xml:space="preserve">
+    <value>定时间隔</value>
+  </data>
+  <data name="strLabTimingUnit" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="strLabTrigParam" xml:space="preserve">
+    <value>触发延时</value>
+  </data>
+  <data name="strLabTrigSwitch" xml:space="preserve">
+    <value>触发开关</value>
+  </data>
+  <data name="strLabWiegandProtocol" xml:space="preserve">
+    <value>韦根协议</value>
+  </data>
+  <data name="strLabWorkMode" xml:space="preserve">
+    <value>工作模式</value>
+  </data>
+  <data name="strMsgFailedReadCommMode" xml:space="preserve">
+    <value>读通信方式参数失败</value>
+  </data>
+  <data name="strMsgFailedSetCommMode" xml:space="preserve">
+    <value>设置通信方式参数失败</value>
+  </data>
+  <data name="strMsgInvalidDelayTime" xml:space="preserve">
+    <value>延时的有效值是０－２４０秒</value>
+  </data>
+  <data name="strMsgInvalidDevNo" xml:space="preserve">
+    <value>设备号的有效值是0-255.</value>
+  </data>
+  <data name="strMsgInvalidFreqMode" xml:space="preserve">
+    <value>请选择频率模式</value>
+  </data>
+  <data name="strMsgInvalidFreqPoint" xml:space="preserve">
+    <value>无效频点</value>
+  </data>
+  <data name="strMsgInvalidPower" xml:space="preserve">
+    <value>功率的有效值是1-150.</value>
+  </data>
+  <data name="strMsgInvalidSingleOrMulti" xml:space="preserve">
+    <value>请选择单卡或多卡模式</value>
+  </data>
+  <data name="strMsgInvalidTimingParam" xml:space="preserve">
+    <value>定时间隔的有效值为２－１００</value>
+  </data>
+  <data name="strMsgInvalidTrigSwitch" xml:space="preserve">
+    <value>请选择触发开关</value>
+  </data>
+  <data name="strMsgInvalidWordMode" xml:space="preserve">
+    <value>无效的工作模式</value>
+  </data>
+  <data name="strMsgSucceedSetCommMode" xml:space="preserve">
+    <value>设置通信方式参数成功</value>
+  </data>
+  <data name="strMsgSucceedSetFreq" xml:space="preserve">
+    <value>写频率参数成功</value>
+  </data>
+  <data name="strBtnModAuthPwd" xml:space="preserve">
+    <value>修改授权码</value>
+  </data>
+  <data name="strBtnSetBeep" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnSetUsbFormat" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="strBtnTagAuth" xml:space="preserve">
+    <value>标签授权</value>
+  </data>
+  <data name="strGbBeepControl" xml:space="preserve">
+    <value>读卡控制</value>
+  </data>
+  <data name="strGbTagAuth" xml:space="preserve">
+    <value>标签授权</value>
+  </data>
+  <data name="strGbUsbFormat" xml:space="preserve">
+    <value>USB输出口格式(仅限双U口发卡器)</value>
+  </data>
+  <data name="strLabAuthPwd" xml:space="preserve">
+    <value>原授权码(4位16进制字符)</value>
+  </data>
+  <data name="strLabNewAuthPwd" xml:space="preserve">
+    <value>新授杩码(4位16进制数字)</value>
+  </data>
+  <data name="strMsgFailedAuth" xml:space="preserve">
+    <value>授权失败</value>
+  </data>
+  <data name="strMsgFailedSetAuthPwd" xml:space="preserve">
+    <value>修改失败</value>
+  </data>
+  <data name="strMsgFailedSetUsbFormat" xml:space="preserve">
+    <value>格式设置失败</value>
+  </data>
+  <data name="strMsgInvalidBeepControl" xml:space="preserve">
+    <value>请选择一个有效选项</value>
+  </data>
+  <data name="strMsgInvalidChar" xml:space="preserve">
+    <value>含有无效字符</value>
+  </data>
+  <data name="strMsgInvalidOldPwd" xml:space="preserve">
+    <value>原密码不符</value>
+  </data>
+  <data name="strMsgInvalidUsbFormat" xml:space="preserve">
+    <value>请选择一种有效格式</value>
+  </data>
+  <data name="strMsgPwdMustFour" xml:space="preserve">
+    <value>授权码必须为4位</value>
+  </data>
+  <data name="strMsgSuccedSetAuthPwd" xml:space="preserve">
+    <value>修改成功</value>
+  </data>
+  <data name="strMsgSucceedAuth" xml:space="preserve">
+    <value>授权成功</value>
+  </data>
+  <data name="strMsgSucceedBeepControl" xml:space="preserve">
+    <value>设置成功</value>
+  </data>
+  <data name="strMsgSucceedSetUsbFormat" xml:space="preserve">
+    <value>格式设置成功</value>
+  </data>
+  <data name="strTpOtherOpr" xml:space="preserve">
+    <value>其它操作</value>
+  </data>
+  <data name="strChkSaveFile" xml:space="preserve">
+    <value>自动保存为文件</value>
+  </data>
+  <data name="strMsgFailedOpenFile" xml:space="preserve">
+    <value>打开文件失败</value>
+  </data>
+  <data name="strMsgSussecReadData" xml:space="preserve">
+    <value>读取成功</value>
+  </data>
+  <data name="btnSetRelayTime" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="ClosePrompt" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="GopRelayControl" xml:space="preserve">
+    <value>继电器自动闭合使能</value>
+  </data>
+  <data name="lblCloseTime" xml:space="preserve">
+    <value>闭合时间(秒)</value>
+  </data>
+  <data name="MainWindowFormClosing" xml:space="preserve">
+    <value>确定退出软件吗!</value>
+  </data>
+  <data name="MsgSetRelayTime" xml:space="preserve">
+    <value>请选择一个具体的时间值</value>
+  </data>
+  <data name="rdoCloseRelay" xml:space="preserve">
+    <value>被动</value>
+  </data>
+  <data name="rdoOpenRelay" xml:space="preserve">
+    <value>主动</value>
+  </data>
+  <data name="strMsgfaileBeepControl" xml:space="preserve">
+    <value>设置失败</value>
+  </data>
+  <data name="MsgOpenExcel" xml:space="preserve">
+    <value>导出成功,是否打开文档!</value>
+  </data>
+  <data name="MsgSaveExcel" xml:space="preserve">
+    <value>数据导出Excel失败!</value>
+  </data>
+  <data name="SaveExcel" xml:space="preserve">
+    <value>是否需要保存Excel</value>
+  </data>
+  <data name="lblCoefficient" xml:space="preserve">
+    <value>系数</value>
+  </data>
+  <data name="btnReadBeep" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnReadSpeed" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnSetReadSpeed" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="lblReadSpeed" xml:space="preserve">
+    <value>速度(毫秒)</value>
+  </data>
+  <data name="lblReadVoice" xml:space="preserve">
+    <value>蜂鸣器声音</value>
+  </data>
+  <data name="lblWigginsTakePlaceValue" xml:space="preserve">
+    <value>韦根取位值</value>
+  </data>
+  <data name="StrMsgcbbRelayTime" xml:space="preserve">
+    <value>请选择或输入闭合时间</value>
+  </data>
+  <data name="strMsgFailedSetReadSpeed" xml:space="preserve">
+    <value>读卡速度设置失败</value>
+  </data>
+  <data name="strMsgInvalidCommMode" xml:space="preserve">
+    <value>请选取通讯方式</value>
+  </data>
+  <data name="strMsgInvalidPulseCycle" xml:space="preserve">
+    <value>请设置脉冲周期</value>
+  </data>
+  <data name="strMsgInvalidPulseWidth" xml:space="preserve">
+    <value>请设置韦根脉冲宽度</value>
+  </data>
+  <data name="strMsgInvalidReadSpeedSet" xml:space="preserve">
+    <value>请选取速度(毫秒)</value>
+  </data>
+  <data name="strMsgInvalidWiegandProto" xml:space="preserve">
+    <value>请选取韦根协议</value>
+  </data>
+  <data name="strMsgInvalidWiegandValue" xml:space="preserve">
+    <value>请选取韦根取位值</value>
+  </data>
+  <data name="strMsgSucceedSetReadSpeed" xml:space="preserve">
+    <value>读卡速度设置成功</value>
+  </data>
+  <data name="btnReadRelayTime" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="rdoClose1" xml:space="preserve">
+    <value>关闭 1</value>
+  </data>
+  <data name="rdoClose2" xml:space="preserve">
+    <value>关闭 2</value>
+  </data>
+  <data name="rdoOpen1" xml:space="preserve">
+    <value>打开 1</value>
+  </data>
+  <data name="rdoOpen2" xml:space="preserve">
+    <value>打开 2</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnReadRelayTime" xml:space="preserve">
+    <value>继电器闭合时间读取失败</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnSetRelayTime" xml:space="preserve">
+    <value>继电器关闭时间设置失败</value>
+  </data>
+  <data name="strMsgSucceedInvalidbtnReadRelayTime" xml:space="preserve">
+    <value>继电器闭合时间读取成功</value>
+  </data>
+  <data name="strMsgSucceedInvalidbtnSetRelayTime" xml:space="preserve">
+    <value>继电器关闭时间设置成功</value>
+  </data>
+  <data name="chkZD" xml:space="preserve">
+    <value>自动增1</value>
+  </data>
+  <data name="btnAntRead" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnAntSet" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="chkAnt1" xml:space="preserve">
+    <value>天线1</value>
+  </data>
+  <data name="chkAnt2" xml:space="preserve">
+    <value>天线2</value>
+  </data>
+  <data name="chkAnt3" xml:space="preserve">
+    <value>天线3</value>
+  </data>
+  <data name="chkAnt4" xml:space="preserve">
+    <value>天线4</value>
+  </data>
+  <data name="chkAnt5" xml:space="preserve">
+    <value>天线5</value>
+  </data>
+  <data name="chkAnt6" xml:space="preserve">
+    <value>天线6</value>
+  </data>
+  <data name="chkAnt7" xml:space="preserve">
+    <value>天线7</value>
+  </data>
+  <data name="chkAnt8" xml:space="preserve">
+    <value>天线8</value>
+  </data>
+  <data name="grpAntSet" xml:space="preserve">
+    <value>天线设置</value>
+  </data>
+  <data name="rdobtnAntMore" xml:space="preserve">
+    <value>多</value>
+  </data>
+  <data name="rdobtnAntOne" xml:space="preserve">
+    <value>单</value>
+  </data>
+  <data name="strMsgbtnAntReadSuccess" xml:space="preserve">
+    <value>天线读取成功</value>
+  </data>
+  <data name="strMsgbtnAntSetSuccess" xml:space="preserve">
+    <value>天线设置成功</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnAntRead" xml:space="preserve">
+    <value>天线读取失败</value>
+  </data>
+  <data name="strMsgFailedInvalidbtnAntSet" xml:space="preserve">
+    <value>天线设置失败</value>
+  </data>
+  <data name="strMsgSelectRates" xml:space="preserve">
+    <value>请选择速率</value>
+  </data>
+  <data name="strSetRate" xml:space="preserve">
+    <value>请选择速率</value>
+  </data>
+  <data name="strCommPort" xml:space="preserve">
+    <value>串口号</value>
+  </data>
+  <data name="strDatas" xml:space="preserve">
+    <value>波特率</value>
+  </data>
+  <data name="strIP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="strLabCommPort1" xml:space="preserve">
+    <value>端口号</value>
+  </data>
+  <data name="strBtnConnRead" xml:space="preserve">
+    <value>连续读取</value>
+  </data>
+  <data name="strStopRead" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="areaStr" xml:space="preserve">
+    <value>写入区域</value>
+  </data>
+  <data name="bathTagAccess" xml:space="preserve">
+    <value>批量处理标签</value>
+  </data>
+  <data name="beforeWriteDataStr" xml:space="preserve">
+    <value>写入前对应区域数据</value>
+  </data>
+  <data name="checkResultStr" xml:space="preserve">
+    <value>校验结果</value>
+  </data>
+  <data name="checkStartStr" xml:space="preserve">
+    <value>开始校验</value>
+  </data>
+  <data name="clearDataAllStr" xml:space="preserve">
+    <value>清除全部数据</value>
+  </data>
+  <data name="clearDataAreaStr" xml:space="preserve">
+    <value>清除已写入数据</value>
+  </data>
+  <data name="clearDataStr" xml:space="preserve">
+    <value>清除数据</value>
+  </data>
+  <data name="excelCreatErrorStr" xml:space="preserve">
+    <value>无法创建Excel对象，您的电脑可能未安装Excel</value>
+  </data>
+  <data name="excelPathErrorStr" xml:space="preserve">
+    <value>导出文件时出错,文件可能正被打开或文件路径不存在！\n</value>
+  </data>
+  <data name="excelSaveSuccessStr" xml:space="preserve">
+    <value>资料保存成功</value>
+  </data>
+  <data name="finishWriteStr" xml:space="preserve">
+    <value>标签已全部写完</value>
+  </data>
+  <data name="formStr" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="imporDataFormatSetStr" xml:space="preserve">
+    <value>导入数据参数设置</value>
+  </data>
+  <data name="imporDataFormatStr" xml:space="preserve">
+    <value>导入数据格式化</value>
+  </data>
+  <data name="imporDataLentStr" xml:space="preserve">
+    <value>导入数据长度</value>
+  </data>
+  <data name="importErrorMsgStr" xml:space="preserve">
+    <value>导入数据长度有误,可以采用补0的方式导入或者修改原始数据</value>
+  </data>
+  <data name="importsourceStr" xml:space="preserve">
+    <value>导入原始数据</value>
+  </data>
+  <data name="importStr" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="otherStr" xml:space="preserve">
+    <value>其它</value>
+  </data>
+  <data name="startStr" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="stateStr" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="sureStr" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="unWriteStr" xml:space="preserve">
+    <value>未写入标签</value>
+  </data>
+  <data name="writeDataSetStr" xml:space="preserve">
+    <value>写入数据参数设置</value>
+  </data>
+  <data name="WriteFailed" xml:space="preserve">
+    <value>写入失败</value>
+  </data>
+  <data name="WriteSuccess" xml:space="preserve">
+    <value>写入成功</value>
+  </data>
+  <data name="advancedAccessStr" xml:space="preserve">
+    <value>批量读写</value>
+  </data>
+  <data name="AuthorizationResult" xml:space="preserve">
+    <value>授权结果:</value>
+  </data>
+  <data name="authorizationSuccess" xml:space="preserve">
+    <value>授权成功</value>
+  </data>
+  <data name="NoneAuthorizationTag" xml:space="preserve">
+    <value>暂无授权标签</value>
+  </data>
+  <data name="saveAsStr" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="saveStr" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="startAutoAuthorization" xml:space="preserve">
+    <value>开始自动授权</value>
+  </data>
+  <data name="stopAutoAuthorization" xml:space="preserve">
+    <value>停止自动授权</value>
+  </data>
+  <data name="cupageStr" xml:space="preserve">
+    <value>第</value>
+  </data>
+  <data name="DataAreaStr" xml:space="preserve">
+    <value>数据区域</value>
+  </data>
+  <data name="HomePageStr" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="IncreaseStr" xml:space="preserve">
+    <value>增值:</value>
+  </data>
+  <data name="JumpStr" xml:space="preserve">
+    <value>跳转</value>
+  </data>
+  <data name="NePageStr" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="NumberStr" xml:space="preserve">
+    <value>个数</value>
+  </data>
+  <data name="pageStr" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="PrePageStr" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="SampleStr" xml:space="preserve">
+    <value>示例 :</value>
+  </data>
+  <data name="StartValueStr" xml:space="preserve">
+    <value>起始值:</value>
+  </data>
+  <data name="TailPageStr" xml:space="preserve">
+    <value>尾页</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddStr" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AutoStepImport" xml:space="preserve">
+    <value>自动跳步方式</value>
+  </data>
+  <data name="DeleteStr" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ImportAllData" xml:space="preserve">
+    <value>导入完整数据</value>
+  </data>
+  <data name="LenStr" xml:space="preserve">
+    <value>长度:</value>
+  </data>
+  <data name="NoArea" xml:space="preserve">
+    <value>写入数据不包含该区域</value>
+  </data>
+  <data name="NoInvaludeLine" xml:space="preserve">
+    <value>请检查excel是否包含了RFU,EPC,USER列</value>
+  </data>
+  <data name="StrFormatError" xml:space="preserve">
+    <value>数据格式不正确</value>
+  </data>
+  <data name="startValue" xml:space="preserve">
+    <value>起始位</value>
+  </data>
+  <data name="strWeigand" xml:space="preserve">
+    <value>韦根转换</value>
+  </data>
+  <data name="strWeigand21" xml:space="preserve">
+    <value>韦根2+1模式</value>
+  </data>
+  <data name="strWeigand30" xml:space="preserve">
+    <value>韦根3+0模式</value>
+  </data>
+  <data name="strReadByAnt" xml:space="preserve">
+    <value>指定天线读</value>
+  </data>
+  <data name="strWriteByAnt" xml:space="preserve">
+    <value>指定天线写</value>
+  </data>
+  <data name="strGetBeepFailed" xml:space="preserve">
+    <value>查询蜂鸣器状态失败</value>
+  </data>
+  <data name="strGetDoubleUSBFailed" xml:space="preserve">
+    <value>查询双U口数据输出格式失败</value>
+  </data>
+  <data name="strGetQuencyDataFormatFailed" xml:space="preserve">
+    <value>查询盘存数据输出格式失败</value>
+  </data>
+  <data name="strSwitch" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="strMultiReadMode1" xml:space="preserve">
+    <value>多字节</value>
+  </data>
+  <data name="strReadStopTips" xml:space="preserve">
+    <value>请先停止连续寻卡，再操作!</value>
+  </data>
+  <data name="strSingleReadMode" xml:space="preserve">
+    <value>单字节</value>
+  </data>
+  <data name="strGetAuthorizationCode" xml:space="preserve">
+    <value>查询授权码</value>
+  </data>
+  <data name="strFormatEPC" xml:space="preserve">
+    <value>EPC长度</value>
+  </data>
+  <data name="strNonStandardLength" xml:space="preserve">
+    <value>非标准长度EPC</value>
+  </data>
+  <data name="strStandardLength" xml:space="preserve">
+    <value>标准12字节EPC</value>
+  </data>
+  <data name="strLvTemp" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="MsgChoosebtnConnect" xml:space="preserve">
+    <value>请选中一个需要连接的设备!</value>
+  </data>
+  <data name="strLvUart_IP" xml:space="preserve">
+    <value>串口/IP</value>
+  </data>
+  <data name="strMsgSucceedReadCommMode" xml:space="preserve">
+    <value>读取通讯参数成功</value>
+  </data>
+  <data name="btnStartMonitor" xml:space="preserve">
+    <value>启动监听</value>
+  </data>
+  <data name="btnStopMonitor" xml:space="preserve">
+    <value>停止监听</value>
+  </data>
+  <data name="btnBrushVersion" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="btnGetReadMode" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnReadDeviceId" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnReadEPCDataFormat" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnReadFastTag" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnReadPower" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnReadSerialNumber" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnReadVersionInfo" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="btnSetDeviceId" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="btnSetEPCDataFormat" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="btnSetPower" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="btnSetReadMode" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="btnSetSerialNumber" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="gbDataOutputFormat" xml:space="preserve">
+    <value>数据输出格式</value>
+  </data>
+  <data name="gbKillTag" xml:space="preserve">
+    <value>销毁标签</value>
+  </data>
+  <data name="gbNotDoubleUSBDevice" xml:space="preserve">
+    <value>非双USB设备</value>
+  </data>
+  <data name="gbSerialNumber" xml:space="preserve">
+    <value>读写器序列号(仅生产使用)</value>
+  </data>
+  <data name="gbTagInitialize" xml:space="preserve">
+    <value>标签初始化</value>
+  </data>
+  <data name="gbTagLockAndUnlock" xml:space="preserve">
+    <value>标签锁定和解锁</value>
+  </data>
+  <data name="gbVersionInfo" xml:space="preserve">
+    <value>版本信息</value>
+  </data>
+  <data name="lblFrequencyArea" xml:space="preserve">
+    <value>频率区域</value>
+  </data>
+  <data name="lblInfoShow" xml:space="preserve">
+    <value>信息提示：</value>
+  </data>
+  <data name="strMessagePleaseStartMonitor" xml:space="preserve">
+    <value>请先启动监听!</value>
+  </data>
+  <data name="strMessageRepeatedConnection" xml:space="preserve">
+    <value>重复连接!</value>
+  </data>
+  <data name="strMessageSerialportConnectException" xml:space="preserve">
+    <value>串口连接异常!</value>
+  </data>
+  <data name="strMessageStartMonitorFailure" xml:space="preserve">
+    <value>启动监听失败!</value>
+  </data>
+  <data name="strMessageStartMonitorSuccessed" xml:space="preserve">
+    <value>启动监听成功!</value>
+  </data>
+  <data name="strMessageStopMonitorFailure" xml:space="preserve">
+    <value>停止监听失败!</value>
+  </data>
+  <data name="strMessageStopMonitorSuccessed" xml:space="preserve">
+    <value>停止监听成功!</value>
+  </data>
+  <data name="strMessageTCPClientConnectException" xml:space="preserve">
+    <value>TCP Client 连接异常!</value>
+  </data>
+  <data name="strMessageTCPServerConnectException" xml:space="preserve">
+    <value>TCP Server 连接异常!</value>
+  </data>
+  <data name="tpEU_Band" xml:space="preserve">
+    <value>欧标</value>
+  </data>
+  <data name="tpInitiative" xml:space="preserve">
+    <value>主动</value>
+  </data>
+  <data name="tpKorea_Band" xml:space="preserve">
+    <value> 韩标</value>
+  </data>
+  <data name="tpMaster" xml:space="preserve">
+    <value>主从模式</value>
+  </data>
+  <data name="tpPassivity" xml:space="preserve">
+    <value>被动</value>
+  </data>
+  <data name="tpRS485_RJ45" xml:space="preserve">
+    <value>RS485/RJ45</value>
+  </data>
+  <data name="tpSerialPorts" xml:space="preserve">
+    <value>串口</value>
+  </data>
+  <data name="tpTiming" xml:space="preserve">
+    <value>定时模式</value>
+  </data>
+  <data name="tpTrigger" xml:space="preserve">
+    <value>触发模式</value>
+  </data>
+  <data name="tpUSA_Band" xml:space="preserve">
+    <value>美标</value>
+  </data>
+  <data name="tpWiegand" xml:space="preserve">
+    <value>韦根</value>
+  </data>
+  <data name="strGetAuthorizationCodeFailure" xml:space="preserve">
+    <value>查询授权码失败</value>
+  </data>
+  <data name="strGetAuthorizationCodeSuccessed" xml:space="preserve">
+    <value>查询授权码成功</value>
+  </data>
+  <data name="strMessageQueryNotUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>查询非USB设备输出格式失败!</value>
+  </data>
+  <data name="strMessageQueryNotUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>查询非USB设备输出格式成功!</value>
+  </data>
+  <data name="strMessageQueryUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>查询USB设备输出格式失败!</value>
+  </data>
+  <data name="strMessageQueryUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>查询USB设备输出格式成功!</value>
+  </data>
+  <data name="strMessageReadOnceFailure" xml:space="preserve">
+    <value>单次读卡失败</value>
+  </data>
+  <data name="strMessageReadOnceSuccessed" xml:space="preserve">
+    <value>单次读卡成功</value>
+  </data>
+  <data name="strMessageUpdateUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>设置USB设备输出格式失败!</value>
+  </data>
+  <data name="strMessageUpdateUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>设置USB设备输出格式成功!</value>
+  </data>
+  <data name="strMsgConnectSuccessed" xml:space="preserve">
+    <value>连接成功</value>
+  </data>
+  <data name="strMsgDisconnectConnectFailure" xml:space="preserve">
+    <value>断开连接失败!</value>
+  </data>
+  <data name="strMsgDisconnectConnectSuccessed" xml:space="preserve">
+    <value>断开连接成功!</value>
+  </data>
+  <data name="strMsgQueryVersionFailure" xml:space="preserve">
+    <value>查询版本号失败!</value>
+  </data>
+  <data name="strMsgQueryVersionSuccessed" xml:space="preserve">
+    <value>查询版本号成功!</value>
+  </data>
+  <data name="strMessageUpdateNotUSB_DeviceOutputFormatFailure" xml:space="preserve">
+    <value>更新非USB设备输出格式失败!</value>
+  </data>
+  <data name="strMessageUpdateNotUSB_DeviceOutputFormatSuccessed" xml:space="preserve">
+    <value>更新非USB设备输出格式成功!</value>
+  </data>
+  <data name="strGetBeepSuccessed" xml:space="preserve">
+    <value>查询蜂鸣器(声音)成功!</value>
+  </data>
+  <data name="strMessagePleaseChoose" xml:space="preserve">
+    <value>请选择</value>
+  </data>
+  <data name="strMessageQueryDeviceNoFailure" xml:space="preserve">
+    <value>查询设备号失败!</value>
+  </data>
+  <data name="strMessageQueryDeviceNoSuccessed" xml:space="preserve">
+    <value>查询设备号成功!</value>
+  </data>
+  <data name="strMessageQueryDeviceSerialNumberFailure" xml:space="preserve">
+    <value>查询设备序列号失败!</value>
+  </data>
+  <data name="strMessageQueryDeviceSerialNumberSuccessed" xml:space="preserve">
+    <value>查询生产序列号成功!</value>
+  </data>
+  <data name="strMessageQueryOperationAreaFailure" xml:space="preserve">
+    <value>查询操作区域失败!</value>
+  </data>
+  <data name="strMessageQueryOperationAreaSuccessed" xml:space="preserve">
+    <value>查询操作区域成功!</value>
+  </data>
+  <data name="strMessageQueryPowerFailure" xml:space="preserve">
+    <value>查询功率失败!</value>
+  </data>
+  <data name="strMessageQueryPowerSuccessed" xml:space="preserve">
+    <value>查询功率成功!</value>
+  </data>
+  <data name="strMessageQueryReadTagModeFailure" xml:space="preserve">
+    <value>查询读卡模式失败!</value>
+  </data>
+  <data name="strMessageQueryReadTagModeSuccessed" xml:space="preserve">
+    <value>查询读卡模式成功!</value>
+  </data>
+  <data name="strMessageUpdateDeviceNoFailure" xml:space="preserve">
+    <value>更新设备号失败!</value>
+  </data>
+  <data name="strMessageUpdateDeviceNoSuccessed" xml:space="preserve">
+    <value>更新设备号成功!</value>
+  </data>
+  <data name="strMessageUpdateDeviceSerialNumberFailure" xml:space="preserve">
+    <value>更新设备序列号失败!</value>
+  </data>
+  <data name="strMessageUpdateDeviceSerialNumberSuccessed" xml:space="preserve">
+    <value>更新设备序列号成功!</value>
+  </data>
+  <data name="strMessageUpdateOperationAreaFailure" xml:space="preserve">
+    <value>更新操作区域失败!</value>
+  </data>
+  <data name="strMessageUpdateOperationAreaSuccessed" xml:space="preserve">
+    <value>更新操作区域成功!</value>
+  </data>
+  <data name="strMessageUpdatePowerFailure" xml:space="preserve">
+    <value>设置功率失败!</value>
+  </data>
+  <data name="strMessageUpdatePowerSuccessed" xml:space="preserve">
+    <value>设置功率成功!</value>
+  </data>
+  <data name="strMessageUpdateReadTagModeFailure" xml:space="preserve">
+    <value>设置读卡模式失败!</value>
+  </data>
+  <data name="strMessageUpdateReadTagModeSuccessed" xml:space="preserve">
+    <value>设置读卡模式成功!</value>
+  </data>
+  <data name="strMsgFailureGetFreq" xml:space="preserve">
+    <value>读取频率失败!</value>
+  </data>
+  <data name="strMsgSucceedGetFreq" xml:space="preserve">
+    <value>读取频率成功!</value>
+  </data>
+  <data name="strMsgSucceedGetWorkMode" xml:space="preserve">
+    <value>读取工作模式成功!</value>
+  </data>
+  <data name="strMessageContinueReadTagFailure" xml:space="preserve">
+    <value>连续读卡失败!</value>
+  </data>
+  <data name="strMessageContinueReadTagSuccessed" xml:space="preserve">
+    <value>连续读卡成功!</value>
+  </data>
+  <data name="strMessageStopContinueReadTagFailure" xml:space="preserve">
+    <value>停止连续读卡失败!</value>
+  </data>
+  <data name="strMessageStopContinueReadTagSuccessed" xml:space="preserve">
+    <value>停止连续读卡成功!</value>
+  </data>
+  <data name="strLvCurrentTime" xml:space="preserve">
+    <value>读卡时间</value>
+  </data>
+</root>

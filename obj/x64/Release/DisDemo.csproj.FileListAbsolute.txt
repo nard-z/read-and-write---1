@@ -1,0 +1,25 @@
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\bin\x64\Release\DisDemo.exe.config
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\Interop.Office.dll
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.csproj.ResolveComReference.cache
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\bin\x64\Release\DisDemo.exe
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.English.resources
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.MainWindow.resources
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.Properties.Resources.resources
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.SimpChinese.resources
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.csproj.GenerateResource.Cache
+F:\Project(sjf)\释放版（田工）--软件资料\分立器_CS 软件开发包\分立器_单线程_CS 软件开发包\3. 分立器件DEMO_CS_中文 源文件\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.exe
+E:\2020VS\DisDemo_CS_CH\DisDemo\bin\x64\Release\DisDemo.exe.config
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.csproj.ResolveComReference.cache
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.exe
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.BathReadWrite.resources
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.English.resources
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.ImportForm.resources
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.MainWindow.resources
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.Properties.Resources.resources
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.SimpChinese.resources
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\DisDemo.WriteTagDataFormat.resources
+E:\2020VS\DisDemo_CS_CH\DisDemo\bin\x64\Release\DisDemo.exe
+E:\2020VS\DisDemo_CS_CH\DisDemo\bin\x64\Release\ListViewContrl.dll
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\ResolveAssemblyReference.cache
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\GenerateResource.read.1.tlog
+E:\2020VS\DisDemo_CS_CH\DisDemo\obj\x64\Release\GenerateResource.write.1.tlog
